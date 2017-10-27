@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen1"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="ua.kh.ruschess.bluetoothtimer.StepTwoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_screen1"
+        android:gravity="center_horizontal|center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/selFigureWhite"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="clickWhite"
+            app:srcCompat="@drawable/icon_sel_color_white" />
+
+        <ImageView
+            android:id="@+id/selFigureBrown"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="clickBrown"
+            app:srcCompat="@drawable/icon_sel_color_brown" />
+
+        <ImageView
+            android:id="@+id/selFigureBlack"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:onClick="clickBlack"
+            app:srcCompat="@drawable/icon_sel_color_black" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Bluetooth таймер для Русских шахмат</string>
+    <string name="action_settings">Настройки</string>
+    <string name="bluetooth_adapter_error">На вашем устройстве отсутствует bluetooth адаптер</string>
+    <string name="no_connect_device">Нет подключенных устройств</string>
+    <string name="sel_color_figure_device">Выберите цвет фигур для устройства</string>
+    <string name="start_game_true">Можно начинать игру</string>
+    <string name="no_connect_device2">Потеря связи с одним из устройств.</string>
+
+    <string name="no_connect_device_list">Не подключен</string>
+    <string name="no_connect_device_list2">Подключение...</string>
+    <string name="no_connect_device_list3">Подключен</string>
+
+    <string name="cat_setting_game">Настройки игры</string>
+    <string name="time_game_modal">Введите значение продолжительности игры</string>
+    <string name="time_game_title">Продолжительность игры</string>
+    <string name="time_game_desc">Продолжительность игры в минутах</string>
+
+    <string name="time_game_modal_user">Введите значение продолжительности игры игрока</string>
+    <string name="time_game_title_user">Продолжительность игры игрока</string>
+    <string name="time_game_desc_user">Продолжительность игры игрока в минутах</string>
+
+    <string name="cat_setting_signal">Настройки сигналов</string>
+    <string name="time_signal_modal">Введите значение продолжительности сигнала</string>
+    <string name="time_signal_title">Продолжительность сигнала</string>
+    <string name="time_signal_desc">Продолжительность сигнала в секундах</string>
+    <string name="timer_sound_title">Звук таймера</string>
+    <string name="timer_sound">Звуковой сигнал таймера</string>
+    <string name="timer_vibro_title">Вибрация таймера</string>
+    <string name="timer_vibro">Вибро сигнал таймера</string>
+    <string name="timer_sound_check_title">Вкл/выкл звука таймера</string>
+
+    <string name="txt_end_time_user">Время игрока закончилось!</string>
+    <string name="txt_end_time_total">Общее время игры закончилось!</string>
+
+    <string name="dialog_confirm_close">Выйти из игры?</string>
+    <string name="dialog_confirm_close_ok">Да</string>
+    <string name="dialog_confirm_close_cancel">Нет</string>
+    <string name="dialog_confirm_close2">Выйти из приложения?</string>
+    <string name="dialog_confirm_close3">Перейти на первый экран?</string>
+    <string name="dialog_confirm_close4">Завершить игру?</string>
+    <string name="dialog_confirm_close6">Вернуться на первый экран?</string>
+    <string name="dialog_start_move">Восстановить ход?</string>
+    <string name="dialog_confirm_close5">Продолжить игру?</string>
+    <string name="dialog_confirm_close7">Перезапуск?</string>
+    <string name="no_close_game">Завершите свой ход!</string>
+
+    <string name="dialog_confirm_connect">Потеряна связь с устройством</string>
+    <string name="dialog_confirm_connect_but">Восстановить</string>
+    <string name="dialog_confirm_close_cancel2">Отмена</string>
+
+    <string name="txt_menu_setting">Настройки</string>
+    <string name="txt_menu_refresh">Обновить список устройств</string>
+    <string name="txt_menu_info">Пошаговая инструкция</string>
+    <string name="txt_menu_exit">Выход</string>
+    <string name="txt_menu_home">На первый экран</string>
+    <string name="txt_menu_move">Возобновить ход</string>
+    <string name="txt_menu_end_game">Завершить игру</string>
+    <string name="txt_menu_pause">Пауза</string>
+    <string name="txt_menu_connect">Экран подключений</string>
+    <string name="txt_menu_reload">Перезапуск</string>
+
+    <string name="txt_menu_pause2">ПАУЗА</string>
+
+    <string name="title_activity_welcome">Порядок действий</string>
+    <string name="next">ДАЛЕЕ</string>
+    <string name="skip">ПРОПУСТИТЬ</string>
+    <string name="start">ЗАВЕРШИТЬ</string>
+
+    <string name="slide_1_title">Подключите\nустройства</string>
+    <string name="slide_1_desc">Подключите к своему устройству еще два устройства по bluetooth.</string>
+
+    <string name="slide_2_title">Выберите\nустройства</string>
+    <string name="slide_2_desc">Выберите два устройства, на которых запущено приложение.</string>
+
+    <string name="slide_3_title">Выберите\nцвет</string>
+    <string name="slide_3_desc">Выберите цвет фигур\nдля каждого устройства.</string>
+
+    <string name="slide_4_title">Запуск\nтаймера</string>
+    <string name="slide_4_desc">Устройство которому назначен белый цвет фигур начинает игру.\nУдачной игры!</string>
+
+    <string name="slide_5_title">Благодарности</string>
+    <string name="slide_5_desc">Благодарность за помощь в разработке приложения\n
+        Харьковскому клубу\nРусские шахматы\n
+        ЦГИ Восточная звезда.</string>
+</resources>

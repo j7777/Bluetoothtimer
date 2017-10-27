@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#455A64</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorFAB">#d32f2f</color>
+
+    <color name="bg_block_opacity">#CC455a64</color>
+    <color name="my_time_end_color">#FF3D00</color>
+    <color name="my_time_start_color">#ffffbb33</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#455A64</color>
+    <color name="bg_screen2">#455A64</color>
+    <color name="bg_screen3">#455A64</color>
+    <color name="bg_screen4">#455A64</color>
+    <color name="bg_screen5">#455A64</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#212121</color>
+    <color name="dot_dark_screen2">#212121</color>
+    <color name="dot_dark_screen3">#212121</color>
+    <color name="dot_dark_screen4">#212121</color>
+    <color name="dot_dark_screen5">#212121</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#CFD8DC</color>
+    <color name="dot_light_screen2">#CFD8DC</color>
+    <color name="dot_light_screen3">#CFD8DC</color>
+    <color name="dot_light_screen4">#CFD8DC</color>
+    <color name="dot_light_screen5">#CFD8DC</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#263238</color>
+</resources>

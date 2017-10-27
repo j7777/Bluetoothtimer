@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/cat_setting_game">
+
+        <EditTextPreference
+            android:key="time_game"
+            android:title="@string/time_game_title"
+            android:summary="@string/time_game_desc"
+            android:defaultValue="0"
+            android:dialogTitle="@string/time_game_modal"
+            android:inputType="number"/>
+
+        <EditTextPreference
+            android:key="time_game_user"
+            android:title="@string/time_game_title_user"
+            android:summary="@string/time_game_desc_user"
+            android:defaultValue="0"
+            android:dialogTitle="@string/time_game_modal_user"
+            android:inputType="number"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/cat_setting_signal">
+
+        <RingtonePreference
+            android:key="timer_sound_sel"
+            android:title="@string/timer_sound_title"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="@string/timer_sound"
+            android:ringtoneType="notification"/>
+
+        <EditTextPreference
+            android:key="time_signal"
+            android:title="@string/time_signal_title"
+            android:summary="@string/time_signal_desc"
+            android:defaultValue="1"
+            android:dialogTitle="@string/time_signal_modal"
+            android:inputType="number"/>
+
+        <CheckBoxPreference
+            android:key="timer_sound_check"
+            android:title="@string/timer_sound_title"
+            android:summary="@string/timer_sound_check_title"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="timer_vibro_sel"
+            android:title="@string/timer_vibro_title"
+            android:summary="@string/timer_vibro"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
